@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+        <record id="stock_report_remitopreimpreso" model="ir.actions.report">
+            <field name="name">Remito Preimpreso</field>
+            <field name="model">stock.picking</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">stock.reporteremito_remitopreimpreso</field>
+            <field name="report_file">stock.reporteremito_remitopreimpreso</field>
+            <field name="binding_model_id" ref="stock.model_stock_piking"</field>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>
