@@ -27,7 +27,9 @@
         'report/report_remito.xml',
         'report/report_remito_view.xml',
     ],
-    "application": False,
-    'installable': True,
+    'demo': [
     ],
+    'installable': True,
+    'auto_install': False,
+    'application': False,
 }
