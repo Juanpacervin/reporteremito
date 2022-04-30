@@ -26,5 +26,8 @@
     'data': [
         'report/report_remito.xml',
         'report/report_remito_view.xml',
-    ]
+    ],
+    "application": False,
+    'installable': True,
+    ],
 }
